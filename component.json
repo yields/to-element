@@ -1,0 +1,21 @@
+{
+  "name": "to-element",
+  "repo": "yields/to-element",
+  "description": "get a native element.",
+  "version": "0.0.1",
+  "keywords": ["to-element"],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": ["index.js"],
+  "dependencies": {
+    "component/query": "*",
+    "component/domify": "*",
+    "component/trim": "*"
+  },
+  "development": {
+    "visionmedia/mocha-matrix": "*",
+    "visionmedia/mocha": "*",
+    "component/assert": "*",
+    "component/dom": "*"
+  }
+}
