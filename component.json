@@ -2,7 +2,7 @@
   "name": "to-element",
   "repo": "yields/to-element",
   "description": "get a native element.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "keywords": ["to-element"],
   "license": "MIT",
   "main": "index.js",
