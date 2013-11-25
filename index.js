@@ -24,6 +24,7 @@ module.exports = toElement;
 function toElement(value){
   if (value.nodeType) return value;
   if (value.get) return value.get(0);
+  if (value.toElement) return value.toElement();
   if (value.el) return toElement(value.el);
   if ('string' != typeof value) return;
   if ('<' == trim(value).charAt(0)) return domify(value);

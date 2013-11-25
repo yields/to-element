@@ -23,6 +23,13 @@ describe('toElement', function(){
 
   it('("body")', function(){
     assert(document.body == element('body'));
-  });
+  })
+
+  it('(.toElement)', function(){
+    assert(document.body == element({ toElement: toElement }));
+    function toElement(){
+      return document.body;
+    }
+  })
 
 })
